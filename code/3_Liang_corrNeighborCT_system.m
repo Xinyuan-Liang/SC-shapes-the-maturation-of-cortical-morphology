@@ -7,7 +7,7 @@ TVector = -TVector;% greater positive values indicate more significant cortical 
 load(strcat('F:\data\CBDP\',ROI_num,'\Yeo7_label_',ROI_num,'.mat'));
 load(strcat('F:\data\CBDP\',ROI_num,'\Mesulam_',ROI_num,'_label.mat'));
 
-Outpath = strcat('F:\data\CBDP\',ROI_num);
+Outpath = strcat('F:\data\results\CBDP\',ROI_num);
 
 [nodenum,~] = size(G);
 nei_Yeo = zeros(nodenum,7);
