@@ -1,8 +1,8 @@
 # This code was used to fit the maturation curves of nodal CT with age
 
 library(mgcv)
-Data <- read.csv("F:/CBDP/521/521.csv") 
-Measures <- read.csv("F:/CBDP/521/CT/C500/mixed_model/cortical_thickness.csv", header = FALSE) # header = TRUE means that the first row of values in the .csv is set as header information (column names)
+Data <- read.csv("F:/Data/CBDP.csv") 
+Measures <- read.csv("F:/Data/CBDP/cortical_thickness.csv", header = FALSE) 
 
 scan_age = Data$scan_age
 Data$sub_id <- as.factor(Data$sub_id)
