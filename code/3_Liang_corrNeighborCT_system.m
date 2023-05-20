@@ -4,7 +4,7 @@ load(strcat('F:\data\CBDP\',ROI_num ,'\TVector.txt'));
 TVector = -TVector;% greater positive values indicate more significant cortical thinning
 
 % load Yeo7 and Mesulam label
-load(strcat('F:data\CBDP\',ROI_num,'\Yeo7_label_',ROI_num,'.mat'));
+load(strcat('F:\data\CBDP\',ROI_num,'\Yeo7_label_',ROI_num,'.mat'));
 load(strcat('F:\data\CBDP\',ROI_num,'\Mesulam_',ROI_num,'_label.mat'));
 
 Outpath = strcat('F:\data\CBDP\',ROI_num);
