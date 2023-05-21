@@ -17,7 +17,7 @@
     group_pValue = group_pValue';
     group_beta = group_beta';
     group_tValue = group_tValue';
-    Outpath = strcat('F:\CBDP\C',Roinum,'\mixed_model\');
+    Outpath = strcat('data\CBDP\',Roinum);
     Outmat = strcat(Outpath,'group_diff.mat');
     save (Outmat, 'group_tValue', 'group_pValue','group_beta');
     outgroup_tValue_txt = strcat(Outpath,'TVector.txt');
