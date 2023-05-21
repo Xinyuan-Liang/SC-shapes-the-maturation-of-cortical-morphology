@@ -7,7 +7,7 @@
 % Beijing, PR China.
 % ================================================================================================
 %get transition_probabilities Discrete time
-function [TP] = Liang_random_walk(GroupSC_path,step_num)
+function [TP] = s6_Liang_random_walk(GroupSC_path,step_num)
     load(GroupSC_path);
     degree = sum(G); % node degree
     node = length(degree); % node number
