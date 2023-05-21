@@ -2,7 +2,7 @@
 % This procedure is used to estimated the statistical differences in CT 
 % between the child and adolescent groups by a mixed linear analysis.
 %===========================================================================
-function [group_tValue,group_pValue,group_beta] = mixed_model_group_diff
+
     Roinum = '500';
     load('child_info.mat');
     load('cortical_thickness.mat');
