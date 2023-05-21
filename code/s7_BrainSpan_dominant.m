@@ -1,6 +1,6 @@
-load('F:\data\gene\Brainspan_neocortex.mat');
-load('F:\data\gene\neurodev_process.mat');
-load('F:\data\gene\dominant_regions.mat');% load epi 
+load('data\gene\Brainspan_neocortex.mat');
+load('data\gene\neurodev_process.mat');
+load('data\gene\dominant_regions.mat');
  
 % dominant region
 Index_dom = find([dominant{:,2}]);
@@ -32,8 +32,8 @@ for i = 1:length(field)
     notdomAge = log2(sample_info.Day(notdomIndex));
     domPC = PC(1:length(domAge));
     notdomPC = PC((length(domAge)+1):end); 
-%      csvwrite( [ 'F:\data\results\Brainspan', filesep, 'DevelopmentTrajectory-', proc, '-dom.csv' ], [ domAge'; domPC' ] );
-%      csvwrite( [ 'F:\data\results\Brainspan',filesep,'DevelopmentTrajectory-', proc, '-notdom.csv' ], [ notdomAge'; notdomPC' ] );
+%      csvwrite( [ 'data\results\Brainspan', filesep, 'DevelopmentTrajectory-', proc, '-dom.csv' ], [ domAge'; domPC' ] );
+%      csvwrite( [ 'data\results\Brainspan',filesep,'DevelopmentTrajectory-', proc, '-notdom.csv' ], [ notdomAge'; notdomPC' ] );
 
     % PC diff between 6y-14y
     Index_dom_6_14 = find(domAge > log2(2456) & domAge < log2(5376)); 
