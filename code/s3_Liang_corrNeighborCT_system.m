@@ -1,13 +1,13 @@
 ROI_num = '500';
-load(strcat('F:\data\CBDP\',ROI_num,'\Group_sc.mat'));
-load(strcat('F:\data\CBDP\',ROI_num ,'\TVector.txt'));
+load(strcat('data\CBDP\',ROI_num,'\Group_sc.mat'));
+load(strcat('data\CBDP\',ROI_num ,'\TVector.txt'));
 TVector = -TVector;% greater positive values indicate more significant cortical thinning
 
 % load Yeo7 and Mesulam label
-load(strcat('F:\data\CBDP\',ROI_num,'\Yeo7_label_',ROI_num,'.mat'));
-load(strcat('F:\data\CBDP\',ROI_num,'\Mesulam_',ROI_num,'_label.mat'));
+load(strcat('data\CBDP\',ROI_num,'\Yeo7_label_',ROI_num,'.mat'));
+load(strcat('data\CBDP\',ROI_num,'\Mesulam_',ROI_num,'_label.mat'));
 
-Outpath = strcat('F:\data\results\CBDP\',ROI_num);
+Outpath = strcat('data\results\CBDP\',ROI_num);
 
 [nodenum,~] = size(G);
 nei_Yeo = zeros(nodenum,7);
