@@ -10,9 +10,9 @@
 
 ROI_num = {'125','250','500'};
 for roi = 1:length(ROI_num)
-    GroupSC_path = strcat('F:\data\CBDP\',ROI_num{roi},'\Group_sc.mat');
-    Tvector_path = strcat('F:\data\CBDP\',ROI_num{roi} ,'\TVector.txt');
-    savepath = strcat('F:\data\CBDP\results\',ROI_num{roi});
+    GroupSC_path = strcat('data\CBDP\',ROI_num{roi},'\Group_sc.mat');
+    Tvector_path = strcat('data\CBDP\',ROI_num{roi} ,'\TVector.txt');
+    savepath = strcat('data\CBDP\results\',ROI_num{roi});
     if ~exist(savepath, 'dir')
         mkdir(savepath);
     end
