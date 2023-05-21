@@ -1,6 +1,6 @@
 %% Longitudinal analysis, corr CT maturation rate with mean of sc-defined neighbors
-load('./data/CT_info.mat','delta_CT_rate');
-load('./data/SC_individual.mat');
+load('./data/CBDP/longitudinal_sub/CT_info.mat','delta_CT_rate');
+load('./data/CBDP/longitudinal_sub/SC_individual.mat');
 [N_sub,~] = size(delta_CT_rate);
 
 rall = [];
