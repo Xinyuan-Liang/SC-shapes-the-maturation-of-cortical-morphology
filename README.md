@@ -3,11 +3,11 @@ This repository provides core code and relevant toolboxes for data analysis in t
 
 ## Overview:
 
-Content includes standalone software, source code, and demo data. Due to size limitation, some data can be found in  https://pan.bnu.edu.cn/l/a1nOfo
+Content includes standalone software, source code, and demo data. All data required for reproducing our findings have been made publicly available, including regional cortical thickness matrix, structural connectivity matrix in three node parcellation resolutions for each participant, intermediate results during analysis, and data for visualizing main figures. Raw data is available from the corresponding authors upon reasonable request. Of note, due to size limitation, some data is placed in another pubic cloud storage: https://pan.bnu.edu.cn/l/a1nOfo
 
 ## Installation guide:
 
-Please use the “add path” method in MATLAB, "pip install" method in Python and "install.packages()" in R to add toolboxes and scripts. This procedure is not time-consuming.
+Please use the “add path” method in MATLAB, "pip install" method in Python and "install.packages()" in R to add toolboxes and scripts in the code folder. This procedure is not time-consuming.
 
 ## Code:
 
@@ -25,7 +25,7 @@ Please use the “add path” method in MATLAB, "pip install" method in Python a
 
 7. **Longitudinal analysis**: s5_lxy_sc_corr_longitudinal.m
 
-8. **Random walk model**: s6_Liang_ramdom_walk.m
+8. **Random walk model**: s6_Liang_random_walk.m
 
 9. **SVR model**: The CT maturation degree was predicted with an SVR model using an open Matlab code package (https://github.com/ZaixuCui/Pattern_Regression_Clean/tree/master/SVR) (5) and LIBSVM matlab toolbox (https://www.csie.ntu.edu.tw/~cjlin/libsvm/).
 
