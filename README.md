@@ -11,7 +11,6 @@ Please use the “add path” method in MATLAB, "pip install" method in Python a
 
 ## Code:
 
-## Code:
 Following five analyses were performed using open-source packages:
 1. **Spin test**: The spin test was conducted using an open Matlab code package (https://github.com/frantisekvasa/rotate_parcellation) (1, 2).
 
