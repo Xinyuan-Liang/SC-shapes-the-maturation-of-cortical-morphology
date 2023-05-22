@@ -26,4 +26,4 @@
     save (outgroup_pValue_txt, 'group_pValue', '-ascii');
     outgroup_betaValue_txt = strcat(Outpath,'betaVector.txt');
     save (outgroup_betaValue_txt, 'group_beta', '-ascii');
-end
+
