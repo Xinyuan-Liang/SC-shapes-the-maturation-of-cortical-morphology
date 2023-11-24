@@ -21,6 +21,7 @@ Following five analyses were performed using open-source packages:
 4. **SVR model**: The cortical thickness (CT) maturation degree was predicted with an SVR model using an open Matlab code package (https://github.com/ZaixuCui/Pattern_Regression_Clean/tree/master/SVR) (5) and LIBSVM matlab toolbox (https://www.csie.ntu.edu.tw/~cjlin/libsvm/).
 
 5. **Gene Ontology Enrichment Analysis**: Gene Ontology enrichment analysis was conducted using the ToppGene Suite (https://toppgene.cchmc.org/) (6).
+6. **Visualization**: BrainNet Viewer (www.nitrc.org/projects/bnv) and netneurotools (https://github.com/netneurolab/netneurotools) toolbox.
 
 The main analysis process was performed step-by-step using the following code.
 1. **Mixed linear model**: s1_mixed_model_group_diff.m
