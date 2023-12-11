@@ -56,7 +56,7 @@ The main analysis process was performed step-by-step using the following code.
 10.	The tissue samples in Brainspan dataset belong to dominant regions:
     dominant_regions.mat (‘0’ and ‘1’ denote non-dominant and dominant regions.)
 11.	Neurodevelopmental processes related genes (7): neurodev_process.mat
-12.	The relevant data for visualizing the figures are  provided in  https://pan.bnu.edu.cn/l/a1nOfo.
+12.	The relevant data for visualizing the figures are  provided in  https://drive.google.com/drive/folders/1hVJKoSD4vTon8ERw8PuyB1SQGCkaqfFg?usp=drive_link
 
 ## References
 1.	F. Vasa et al., Adolescent Tuning of Association Cortex in Human Structural Brain Networks. Cereb Cortex 28, 281-294 (2018).
