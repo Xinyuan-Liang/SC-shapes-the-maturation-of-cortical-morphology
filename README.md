@@ -12,7 +12,7 @@
 
    ## Code:
 
-   Te following analyses were performed using open-source packages:
+   The following analyses were performed using open-source packages:
 
    1. **Spin test**: The spin test was conducted using an open Matlab code package (https://github.com/frantisekvasa/rotate_parcellation) [1, 2].
 
@@ -48,7 +48,7 @@
 
    ## Data：
 
-   For the 1-7 items, we provide data in the CBDP dataset at three resolutions (219, 448, and 1000 nodes), and in the HCPD dataset at the highest resolution (1000 nodes).
+   For items 1-7, we provide data in the CBDP dataset at three resolutions (219, 448, and 1000 nodes), and in the HCPD dataset at the highest resolution (1000 nodes).
 
    1.	Basic information of participants: child_info.mat
    2.	Regional cortical thickness for each participant: cortical_thickness.mat
@@ -65,7 +65,7 @@
 
    For the gene analysis (items 10-12), we provide following data.
 
-   10.	The tissue samples in Brainspan dataset belong to dominant regions: tissue_dominant_regions.mat (‘0’ and ‘1’ denote non-dominant and dominant regions.)
+   10.	The tissue samples in Brainspan dataset belong to dominant regions: tissue_dominant_regions.mat (‘0’denotes non-dominant regions and‘1’denotes dominant regions.)
    11.	Neurodevelopmental processes related genes [7]: neurodev_process.mat
    12.	Gene expression information of the neocortex from the Brainspan dataset: Brainspan_neocortex.mat
 
