@@ -1,6 +1,6 @@
 load('data\gene\Brainspan_neocortex.mat');
 load('data\gene\neurodev_process.mat');
-load('data\gene\dominant_regions.mat');
+load('data\gene\tissue_dominant_regions.mat');
  
 % dominant region
 Index_dom = find([dominant{:,2}]);
