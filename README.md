@@ -3,7 +3,7 @@ This repository provides core code and relevant toolboxes for data analysis in t
 
 ## Overview:
 
-Content includes standalone software, source code, and demo data. All data required for reproducing our findings have been made publicly available, including regional cortical thickness matrix, structural connectivity matrix in three node parcellation resolutions for each participant, intermediate results during analysis, and data for visualizing the main figures. Raw data is available from the corresponding authors upon reasonable request. Of note, due to limitation of data size, some data is placed in another public cloud storage: https://drive.google.com/drive/folders/1hVJKoSD4vTon8ERw8PuyB1SQGCkaqfFg?usp=drive_link
+Content includes standalone software, source code, and demo data. All data required for reproducing our findings have been made publicly available, including regional cortical thickness matrix, structural connectivity matrix in three node parcellation resolutions for each participant, intermediate results during analysis, and data for visualizing the main figures. Raw data is available from the corresponding authors upon reasonable request. Of note, due to limitation of data size, some data is placed in releases: https://github.com/Xinyuan-Liang/SC-shapes-the-maturation-of-cortical-morphology/releases/tag/v1.0.0
 ## Installation guide:
 
 Please use the “add path” method in MATLAB, "pip install" method in Python and "install.packages()" method in R to add toolboxes and scripts in the code folder. These procedures are not time-consuming.
@@ -47,16 +47,17 @@ The main analysis process was performed step-by-step using the following code.
 3.	Cortical thickness  for each participant: cortical_thickness.mat
 4.	Maturation extents (*t*-value between child and adolescent groups) and significances of cortical thickness at each parcellation resolution: 
    TVector.txt, PVector.txt
-5.	White matter network matrix for each child: sc_child_indivi.mat
+5.	White matter network matrix for each child: sc_child_indivi.mat (data for 448-node resolution and 1000-node resolution in https://github.com/Xinyuan-Liang/SC-shapes-the-maturation-of-cortical-morphology/releases/tag/v1.0.0)
 6.	Group-level connectome backbone at each parcellation resolution:
    Group_sc.mat, Group_sc_nonei.mat (For each node, we excluded all its spatially adjoining neighbors.)
 7.	Matrix of the Euclidean distance between every two nodes: dist.mat
 8.	CT maturation rates and white matter network for each individual with longitudinal scans: CT_info.mat, SC_individual.mat
-9.	Transition probabilities matrix of the WM network: TP.mat
+9.	Transition probabilities matrix of the WM network: TP.mat (data for 1000-node resolution in https://github.com/Xinyuan-Liang/SC-shapes-the-maturation-of-cortical-morphology/releases/tag/v1.0.0)
 10.	The tissue samples in Brainspan dataset belong to dominant regions:
     dominant_regions.mat (‘0’ and ‘1’ denote non-dominant and dominant regions.)
 11.	Neurodevelopmental processes related genes (7): neurodev_process.mat
-12.	The relevant data for visualizing the figures are  provided in  https://drive.google.com/drive/folders/1hVJKoSD4vTon8ERw8PuyB1SQGCkaqfFg?usp=drive_link
+12.	Gene expression information of the neocortex from the Brainspan dataset: Brainspan_neocortex.mat (https://github.com/Xinyuan-Liang/SC-shapes-the-maturation-of-cortical-morphology/releases/tag/v1.0.0)
+13.	The relevant data for visualizing the figures are  provided in releases https://github.com/Xinyuan-Liang/SC-shapes-the-maturation-of-cortical-morphology/releases/tag/v1.0.0
 
 ## References
 1.	F. Vasa et al., Adolescent Tuning of Association Cortex in Human Structural Brain Networks. Cereb Cortex 28, 281-294 (2018).
