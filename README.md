@@ -3,8 +3,7 @@ This repository provides core code and relevant toolboxes for data analysis in t
 
 ## Overview:
 
-Content includes standalone software, source code, and demo data. All data required for reproducing our findings have been made publicly available, including regional cortical thickness matrix, structural connectivity matrix in three node parcellation resolutions for each participant, intermediate results during analysis, and data for visualizing the main figures. Raw data is available from the corresponding authors upon reasonable request. Of note, due to limitation of data size, some data is placed in another public cloud storage: https://pan.bnu.edu.cn/l/a1nOfo
-
+Content includes standalone software, source code, and demo data. All data required for reproducing our findings have been made publicly available, including regional cortical thickness matrix, structural connectivity matrix in three node parcellation resolutions for each participant, intermediate results during analysis, and data for visualizing the main figures. Raw data is available from the corresponding authors upon reasonable request. Of note, due to limitation of data size, some data is placed in another public cloud storage: https://drive.google.com/drive/folders/1hVJKoSD4vTon8ERw8PuyB1SQGCkaqfFg?usp=drive_link
 ## Installation guide:
 
 Please use the “add path” method in MATLAB, "pip install" method in Python and "install.packages()" method in R to add toolboxes and scripts in the code folder. These procedures are not time-consuming.
