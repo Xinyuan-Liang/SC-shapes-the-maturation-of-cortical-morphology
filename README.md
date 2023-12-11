@@ -12,7 +12,7 @@
 
    ## Code:
 
-   Following analyses were performed using open-source packages:
+   Te following analyses were performed using open-source packages:
 
    1. **Spin test**: The spin test was conducted using an open Matlab code package (https://github.com/frantisekvasa/rotate_parcellation) [1, 2].
 
@@ -25,7 +25,7 @@
    5. **Gene Ontology Enrichment Analysis**: Gene Ontology enrichment analysis was conducted using online tools including ToppGene Suite (https://toppgene.cchmc.org/) [6] and REViGO (http://revigo.irb.hr).
    6. **Visualization**: BrainNet Viewer (www.nitrc.org/projects/bnv) and netneurotools (https://github.com/netneurolab/netneurotools) toolbox.
 
-   The main analyses were performed step-by-step using the following code.
+   The main analyses were performed step-by-step using the source code as follows.
 
    1. **Mixed linear model**: s1_mixed_model_group_diff.m
 
@@ -69,7 +69,7 @@
    11.	Neurodevelopmental processes related genes [7]: neurodev_process.mat
    12.	Gene expression information of the neocortex from the Brainspan dataset: Brainspan_neocortex.mat
 
-   Last, some supporting data (items 13-14) can be found as follows.
+   Finally, some supporting data (items 13-14) can be found as follows.
 
    13.	Multiscale Desikan-Kiliany parcellation files [10] were downloaded using netneurotools toolbox (https://github.com/netneurolab/netneurotools).
    14.	The data for visualizing the figures are  provided in releases https://github.com/Xinyuan-Liang/SC-shapes-the-maturation-of-cortical-morphology/releases/tag/v1.0.0
