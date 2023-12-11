@@ -44,7 +44,7 @@
    8. **Preprocessing of Allen Human Brain Atlas (AHBA) gene expression data**: The regional microarray expression data were preprocessed using a recommended pipeline with the abagen toolbox (0.1.3) (https://github.com/rmarkello/abagen) [8, 9].
       s8_AHBA_gene_expression.py
 
-      Custom code and toolboxes were tested on a 64-bit Windows 10 PC (Intel Core i7-9700, 56GB RAM). Data was analyzed using Matlab 2018b, Python 3.7.12, and R 3.6.3. We thank the authors and developers for providing these tools for data analysis.
+Custom code and toolboxes were tested on a 64-bit Windows 10 PC (Intel Core i7-9700, 56GB RAM). Data was analyzed using Matlab 2018b, Python 3.7.12, and R 3.6.3. We thank the authors and developers for providing these tools for data analysis.
 
    ## Data：
 
