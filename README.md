@@ -61,7 +61,7 @@
    For the GAM and longitudinal analyses (items 8-9), we provide following data in the CBDP dataset at the highest resolution (1000 nodes).
 
    8.	CT maturation rates derived from GAM analysis: CTmaturation_rate_GAM.mat
-   9.	CT maturation rates and white matter network for each individual with longitudinal scans (1000 nodes): CTmaturation_rate_longitudinal.mat, SC_individual_longitudinal.mat
+   9.	CT maturation rates and white matter network for each individual with longitudinal scans: CTmaturation_rate_longitudinal.mat, SC_individual_longitudinal.mat
 
    For the gene analysis (items 10-12), we provide following data.
 
