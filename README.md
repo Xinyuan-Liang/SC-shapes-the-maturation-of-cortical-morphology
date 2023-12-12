@@ -67,11 +67,12 @@ Custom code and toolboxes were tested on a 64-bit Windows 10 PC (Intel Core i7-9
    10.	The tissue samples in the Brainspan dataset belong to dominant regions: tissue_dominant_regions.mat (‘0’denotes non-dominant regions and‘1’denotes dominant regions.)
    11.	Genes associated with neurodevelopmental processes [7]: neurodev_process.mat
    12.	Gene expression data of the neocortex from the Brainspan dataset: Brainspan_neocortex.mat
+   13.	The detailed enrichment analysis results for all genes: AHBA_results.xlsx
 
-   Finally, some supporting data (items 13-14) can be found as follows.
+   Finally, some supporting data (items 14-15) can be found as follows.
 
-   13.	Multiscale Desikan-Kiliany parcellation files [10] were downloaded using the netneurotools toolbox (https://github.com/netneurolab/netneurotools).
-   14.	The data used to visualize the figures are available at https://github.com/Xinyuan-Liang/SC-shapes-the-maturation-of-cortical-morphology/releases/tag/v1.0.0
+   14.	Multiscale Desikan-Kiliany parcellation files [10] were downloaded using the netneurotools toolbox (https://github.com/netneurolab/netneurotools).
+   15.	The data used to visualize the figures are available at https://github.com/Xinyuan-Liang/SC-shapes-the-maturation-of-cortical-morphology/releases/tag/v1.0.0
 
    ## References
 
