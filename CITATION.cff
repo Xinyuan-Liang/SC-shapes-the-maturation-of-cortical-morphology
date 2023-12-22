@@ -1,0 +1,13 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Liang
+  given-names: Xinyuan
+orcid: https://orcid.org/0009-0007-2141-405X
+identifiers:
+  - description: "Relevant code and data for the article "Liang X, Sun L, Liao X, Lei T, Xia M, Duan D, Zeng Z, Xu Z, Men W, Wang Y, Tan S, Gao J, Qin S, Tao S, Dong Q, Zhao T, He Y, Structural connectome architecture shapes the maturation of cortical morphology from childhood to adolescence. bioRxiv, 2022, https://www.biorxiv.org/content/10.1101/2022.12.15.520527v2""
+    type: doi
+    value: 10.5281/zenodo.10423891
+title:Xinyuan-Liang/SC-shapes-the-maturation-of-cortical-morphology: v1.0.0
+version: v1.0.0
+date-released: 2023-12-22
