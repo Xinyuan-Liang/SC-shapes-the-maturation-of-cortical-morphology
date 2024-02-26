@@ -1,6 +1,6 @@
 # SC-shapes-the-maturation-of-cortical-morphology
 
-   This repository provides core code and relevant toolboxes for data analysis in the article "Liang X, Sun L, Liao X, Lei T, Xia M, Duan D, Zeng Z, Xu Z, Men W, Wang Y, Tan S, Gao J, Qin S, Tao S, Dong Q, Zhao T, He Y, Structural connectome architecture shapes the maturation of cortical morphology from childhood to adolescence. bioRxiv, 2022, https://www.biorxiv.org/content/10.1101/2022.12.15.520527v2"
+   This repository provides core code and relevant toolboxes for data analysis in the article "Liang, X., Sun, L., Liao, X. et al. Structural connectome architecture shapes the maturation of cortical morphology from childhood to adolescence. Nat Commun 15, 784 (2024). https://doi.org/10.1038/s41467-024-44863-6"
 
    ## Overview:
 
